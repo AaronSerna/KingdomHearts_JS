@@ -1,0 +1,63 @@
+* {
+  font-family: "Montserrat";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-content {
+  /*  background-image: url("/images/KH_portada.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;*/
+  animation: fade-in 10s ease-in-out forwards;
+}
+
+.loader {
+  opacity: 0; /* Inicialmente oculto */
+  animation: fade-in 4s ease-in-out forwards;
+}
+
+.fade-out {
+  animation: fade-out 2s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.loader {
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-md-6 {
+  position: absolute;
+  top: 45%;
+}
+.col-md-6 .btn {
+  border-radius: 50px;
+}
