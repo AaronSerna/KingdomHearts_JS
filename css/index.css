@@ -6,13 +6,15 @@
 }
 
 .main-content {
-  /*  background-image: url("/images/KH_portada.jpg");
+    background-image: url("/images/KH_portada.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: contain;*/
+  background-size: contain;
   animation: fade-in 10s ease-in-out forwards;
 }
+
+
 
 .loader {
   opacity: 0; /* Inicialmente oculto */
@@ -56,8 +58,9 @@
 
 .col-md-6 {
   position: absolute;
-  top: 45%;
+  top: 100px;
 }
+
 .col-md-6 .btn {
   border-radius: 50px;
 }
