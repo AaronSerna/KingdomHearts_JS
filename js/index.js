@@ -1,4 +1,5 @@
 window.onload = function () {
+  mostrarContenidoPrincipal();
 
   //FUNCIÓN PARA EL LOADER:
   function mostrarContenidoPrincipal() {
@@ -25,20 +26,17 @@ window.onload = function () {
     }, 17500);
   }
 
-  mostrarContenidoPrincipal();
-
   var botonInicio = document.getElementById("botonInicio");
   var audio = document.getElementById("sound-effect");
 
   //FUNCIÓN PARA VINCULAR HTMLs:
-  botonInicio.addEventListener("click", redirigirAlJuego);
+  botonInicio.addEventListener("click", redirigirAInicio);
 
-  function redirigirAlJuego() {
+  function redirigirAInicio() {
     audio.play();
 
     // Esperar 2 segundos antes de redirigir al usuario
     setTimeout(function () {
-      // Redirigir al usuario a la siguiente página.
       window.location.href = "inicio.html";
     }, 3000);
   }
