@@ -1,4 +1,6 @@
 window.onload = function () {
+
+  /*
   mostrarContenidoPrincipal();
 
   //FUNCIÓN PARA EL LOADER:
@@ -25,6 +27,7 @@ window.onload = function () {
       }, 2000); // Duración de la animación de fade-out
     }, 17500);
   }
+  */
 
   var botonInicio = document.getElementById("botonInicio");
   var audio = document.getElementById("sound-effect");
