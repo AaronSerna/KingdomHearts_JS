@@ -1,6 +1,4 @@
 window.onload = function () {
-
-  /*
   mostrarContenidoPrincipal();
 
   //FUNCIÓN PARA EL LOADER:
@@ -23,11 +21,12 @@ window.onload = function () {
     setTimeout(function () {
       document.getElementById("loader3").classList.add("fade-out");
       setTimeout(function () {
+        document.getElementById("loader3").style.display = "none"; // Ocultar el loader
         document.querySelector(".main-content").classList.remove("d-none"); // Mostrar el contenido principal
       }, 2000); // Duración de la animación de fade-out
     }, 17500);
   }
-  */
+
 
   var botonInicio = document.getElementById("botonInicio");
   var audio = document.getElementById("sound-effect");
